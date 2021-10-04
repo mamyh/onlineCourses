@@ -1,12 +1,12 @@
 import React from 'react';
-import { Link, NavLink } from 'react-router-dom';
-import logo from "../../images/logo.jpg";
+import { NavLink } from 'react-router-dom';
+import logo from "../../logo.jpg";
 
 const Header = () => {
     const linkStyle = { textDecoration: 'none', color: '#555', margin: '0 20px' };
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
-            <div className="container  ">
+            <div className="container-fluid">
                 <div>
                     <NavLink className="navbar-brand" to='/'><img src={logo} width={50} height={50} /></NavLink>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

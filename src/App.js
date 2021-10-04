@@ -6,11 +6,12 @@ import Home from "./components/Home/Home";
 
 import NotFound from "./components/notFound/NotFound"
 import Courses from "./components/courses/Courses";
+import Contact from "./components/Contact/Contact";
 
 
 function App() {
   return (
-    <div className="container">
+    <div className="container-fluid">
       <Router>
         <Header></Header>
         <Switch>
@@ -26,7 +27,9 @@ function App() {
           <Route path="/courses" >
             <Courses></Courses>
           </Route>
-          <Route path="/contact" ></Route>
+          <Route path="/contact" >
+            <Contact></Contact>
+          </Route>
           <Route path="*">
             <NotFound></NotFound>
           </Route>

@@ -1,9 +1,17 @@
-import React from 'react'
+import React from 'react';
+import Banner from '../banner/Banner';
+import ToolContent from '../tool/ToolContent';
+import ToolImages from '../tool/ToolImages';
+import "./../tool/Tool.css";
 
 const Home = () => {
     return (
         <div>
-            <h1>this is home page </h1>
+            <Banner></Banner>
+            <section className=" container tools mb-5 mt-5">
+                <ToolContent></ToolContent>
+                <ToolImages></ToolImages>
+            </section>
         </div>
     )
 }

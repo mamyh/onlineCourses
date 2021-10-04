@@ -1,0 +1,110 @@
+[
+    {
+        "id": 1,
+        "title": "React",
+        "img": "./images/reactcourse.png",
+        "des": "this is something awesome . you will learn some moder technick from this course",
+        "price": 500,
+        "rate": 4.9,
+        "classes": 57
+    },
+    {
+        "id": 2,
+        "title": "Node",
+        "img": "./images/node.png",
+        "des": "this is something awesome . you will learn some moder technick from this course",
+        "price": 500,
+        "rate": 4.9,
+        "classes": 19
+    },
+    {
+        "id": 3,
+        "title": "Express",
+        "img": "./images/Express.png",
+        "des": "this is something awesome . you will learn some moder technick from this course",
+        "price": 500,
+        "rate": 4.9,
+        "classes": 54
+    },
+    {
+        "id": 4,
+        "title": "Graphic Designer",
+        "img": "./images/graphic.jpg",
+        "des": "this is something awesome . you will learn some moder technick from this course",
+        "price": 300,
+        "rate": 3.9,
+        "classes": 42
+    },
+    {
+        "id": 5,
+        "title": "Angular",
+        "img": "./images/angular.jpg",
+        "des": "this is something awesome . you will learn some moder technick from this course",
+        "price": 400,
+        "rate": 3.9,
+        "classes": 157
+    },
+    {
+        "id": 6,
+        "title": "Typescript",
+        "img": "./images/ts.jpg",
+        "des": "this is something awesome . you will learn some moder technick from this course",
+        "price": 400,
+        "rate": 4.9,
+        "classes": 45
+    },
+    {
+        "id": 7,
+        "title": "Vue",
+        "img": "./images/vue.jpg",
+        "des": "this is something awesome . you will learn some moder technick from this course",
+        "price": 300,
+        "rate": 3.5,
+        "classes": 50
+    },
+    {
+        "id": 8,
+        "title": "Php",
+        "img": "./images/php-course.png",
+        "des": "this is something awesome . you will learn some moder technick from this course",
+        "price": 200,
+        "rate": 3.9,
+        "classes": 30
+    },
+    {
+        "id": 9,
+        "title": "Next js",
+        "img": "./images/Nextjs.png",
+        "des": "this is something awesome . you will learn some moder technick from this course",
+        "price": 500,
+        "rate": 4.9,
+        "classes": 50
+    },
+    {
+        "id": 10,
+        "title": "Javascript",
+        "img": "./images/js.jpg",
+        "des": "this is something awesome . you will learn some moder technick from this course",
+        "price": 150,
+        "rate": 4.9,
+        "classes": 40
+    },
+    {
+        "id": 11,
+        "title": "Photoshop",
+        "img": "./images/photoshop.jpg",
+        "des": "this is something awesome . you will learn some moder technick from this course",
+        "price": 100,
+        "rate": 2.9,
+        "classes": 29
+    },
+    {
+        "id": 12,
+        "title": "Autocad",
+        "img": "./images/autocad.jpg",
+        "des": "this is something awesome . you will learn some moder technick from this course",
+        "price": 200,
+        "rate": 2.9,
+        "classes": 24
+    }
+]
