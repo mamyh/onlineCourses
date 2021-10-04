@@ -1,8 +1,9 @@
 # Welcome to my `Educational site Based on react` 
+ my demo site is [My-demo-site](https://onlinecoursedonebymyself.netlify.app/home)
 --------------------------------------------------------------
 
 ## my Deploying site is 
-    Demo site will be released soon
+    Demo site has been released
 ----------------------------------------------------------------
 
 ### `some practice in reade me file`
