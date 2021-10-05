@@ -17,6 +17,7 @@ const Home = () => {
     }
     return (
         <div>
+            {/* four components are added in home page  */}
             <Banner></Banner>
             <section className=" container tools mb-5 mt-5">
                 <ToolContent></ToolContent>
