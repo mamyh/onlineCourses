@@ -8,6 +8,7 @@ import ToolImages from '../tool/ToolImages';
 import "./../tool/Tool.css";
 
 const Home = () => {
+    // custom hook 
     const [courses] = useCourse();
     const histry = useHistory();
 
@@ -21,10 +22,11 @@ const Home = () => {
                 <ToolContent></ToolContent>
                 <ToolImages></ToolImages>
             </section>
-            <section className="container popular">
-                <h1>Popular courses</h1>
-                <div style={{ display: 'flex', justifyContent: 'space-between' }}>
+            <section className="container popular my-5">
+                <h1 className="my-5">Popular courses</h1>
+                <div style={{ display: 'flex', justifyContent: 'space-evenly' }}>
                     {courses.map((course, index) =>
+                        //   conditional rendering 
                         index <= 2 && <Course key={course.id} course={course}><button className="btn btn-success" onClick={handleClick}>See the courses</button></Course>
                     )}
                 </div>
@@ -33,4 +35,4 @@ const Home = () => {
     )
 }
 
-export default Home
+export default Home;
