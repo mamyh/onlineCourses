@@ -10,9 +10,13 @@ const Courses = () => {
 
     const handleClick = (course) => {
 
+        const exists = carts.find(cart => cart.id === course.id);
 
-        const newCart = [...carts, course];
-        setCarts(newCart);
+        if (!exists) {
+
+            const newCart = [...carts, course];
+            setCarts(newCart);
+        }
 
     }
     return (

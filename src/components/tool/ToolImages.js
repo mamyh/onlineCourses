@@ -9,7 +9,7 @@ const ToolImages = () => {
     return (
         <div className="images">
             {/* dynamically  rendered img   */}
-            {Array.from({ length: 6 }).map((_, idx) => <img src={require(`../../images/tool${idx + 1}.jpg`).default} alt="tool pictures" />)}
+            {Array.from({ length: 6 }).map((_, idx) => <img key={Math.random()} src={require(`../../images/tool${idx + 1}.jpg`).default} alt="tool pictures" />)}
         </div>
     )
 }
