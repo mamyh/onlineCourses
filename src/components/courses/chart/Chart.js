@@ -1,6 +1,7 @@
 import React from 'react'
 
 const Chart = ({ carts }) => {
+    // use of reduce is just awesome  
     let price = carts.reduce((prevPrice, cart) => prevPrice + cart.price, 0);
     let title = carts.reduce((prevTitle, cart) => [...prevTitle, cart.title], []);
 

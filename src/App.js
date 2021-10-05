@@ -13,8 +13,10 @@ function App() {
   return (
     <div className="container-fluid">
       <Router>
+        {/* header is used here to render in every page  */}
         <Header></Header>
         <Switch>
+          {/* exact is used  */}
           <Route exact path="/">
             <Home></Home>
           </Route>
@@ -30,10 +32,12 @@ function App() {
           <Route path="/contact" >
             <Contact></Contact>
           </Route>
+          {/* notfonnd is added here  */}
           <Route path="*">
             <NotFound></NotFound>
           </Route>
         </Switch>
+        {/* footer is used here for rendered in every page  */}
         <Footer></Footer>
       </Router>
     </div>
